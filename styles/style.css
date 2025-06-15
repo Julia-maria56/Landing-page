@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(34, 34, 34);
+    color:white;
+    margin:0 auto;
+    max-width: 1200px;
+    font-family: poppinsregular;
+    padding:15px;
+}
+
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h1{
+    line-height: 10px;
+    font-weight: 200;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+a:hover{
+    color:rgb(132, 14, 201);
+    transition: ease 0.3s
+}
+
+#btn-inscreva-se{
+    border: 2px solid rgb(132, 14, 201);
+    border-radius:15px;
+    padding: 10px;
+}
+
+#btn-inscreva-se:hover{
+    background-color: rgb(132, 14, 201);
+    color:white;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top:40px;
+    gap:30px;
+}
+
+h2{
+    font-size:56px;
+    line-height: 10px;
+    font-family: poppinsmedium;
+}
+
+span{
+    color: rgb(132, 14, 201);
+}
+
+p{
+    max-width:500px;
+    line-height: 20px;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    width:70%;
+    margin-top:40px;
+}
+
+input{
+    border-radius:20px;
+    height:20px;
+    padding:15px;
+    font-size:15px;
+    border:none;
+}
+
+input[type="submit"]{
+    width:50%;
+    background-color: rgb(132, 14, 201);
+    padding:15px;
+    height:50px;
+    color:white;
+    font-weight: bold;
+}
